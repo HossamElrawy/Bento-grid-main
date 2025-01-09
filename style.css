@@ -42,6 +42,7 @@ body {
   width: 170px;
   line-height: 1;
   letter-spacing: -2px;
+  color: hsl(0, 0%, 7%);
 }
 
 .quicker-word {
@@ -68,6 +69,7 @@ body {
   width: 150px;
   line-height: 1;
   letter-spacing: -2px;
+  color: hsl(0, 0%, 7%);
 }
 
 .down-left-picture {
@@ -144,6 +146,7 @@ body {
   font-size: 30px;
   line-height: 0.8;
   letter-spacing: -2px;
+  color: hsl(0, 0%, 7%);
 }
 
 .right-down-right-up-box {
@@ -160,6 +163,7 @@ body {
   line-height: 0.8;
   letter-spacing: -2px;
   padding-bottom: 16px;
+  color: hsl(0, 0%, 7%);
 }
 
 .consistent-schedule-picture {
@@ -179,11 +183,16 @@ body {
   font-size: 28px;
   line-height: 1;
   letter-spacing: -2px;
+  color: hsl(0, 0%, 7%);
 }
 
 .schedule-posts-picture {
   width: 320px;
   padding-bottom: 16px;
+}
+
+.schedule-posts-text-2 {
+  color: hsl(0, 0%, 7%);
 }
 
 .down-right-section {
@@ -201,7 +210,13 @@ body {
 .audience-growth-text-1 {
   font-weight: 500;
   font-size: 40px;
+  color: hsl(0, 0%, 7%);
 }
+
+.audience-growth-text-2 {
+  color: hsl(0, 0%, 7%);
+}
+
 .audience-growth-picture {
   width: 140px;
   padding-top: 16px;
@@ -255,7 +270,7 @@ body {
   }
   .left-part {
     position: absolute;
-    top: 1700px;
+    top: 1740px;
     left: 50%;
     transform: translateX(-50%);
     width: 95%;
@@ -268,14 +283,14 @@ body {
   }
   .left-box {
     position: absolute;
-    top: 1470px;
+    top: 1510px;
     left: 50%;
     transform: translateX(-50%);
     width: 95%;
   }
   .right-box {
     position: absolute;
-    top: 1112px;
+    top: 1152px;
     left: 50%;
     transform: translateX(-50%);
   }
