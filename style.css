@@ -1,3 +1,4 @@
+/* Reset styles */
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +9,7 @@ html {
   height: 100%;
 }
 
+/* General body layout */
 body {
   height: 100%;
   display: grid;
@@ -18,6 +20,7 @@ body {
   background-color: hsl(252, 100%, 98%);
 }
 
+/* Left part structure */
 .left-part {
   display: flex;
   flex-direction: column;
@@ -25,6 +28,7 @@ body {
   row-gap: 28px;
 }
 
+/* Up-left section */
 .up-left-section {
   background-color: hsl(31, 66%, 93%);
   border-radius: 8px;
@@ -53,6 +57,7 @@ body {
   width: 170px;
 }
 
+/* Down-left section */
 .down-left-section {
   background-color: hsl(39, 100%, 71%);
   border-radius: 8px;
@@ -76,6 +81,7 @@ body {
   width: 195px;
 }
 
+/* Right part structure */
 .right-part {
   display: flex;
   flex-direction: column;
@@ -94,6 +100,7 @@ body {
   row-gap: 28px;
 }
 
+/* Up-left of up-right section */
 .up-left-up-right-box {
   background-color: hsl(256, 67%, 59%);
   border-radius: 8px;
@@ -124,6 +131,7 @@ body {
   font-weight: 400;
 }
 
+/* Down-right-up section */
 .down-right-up-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -170,6 +178,7 @@ body {
   width: 190px;
 }
 
+/* Right-up-right box */
 .right-up-right-box {
   background-color: hsl(254, 88%, 90%);
   border-radius: 8px;
@@ -195,6 +204,7 @@ body {
   color: hsl(0, 0%, 7%);
 }
 
+/* Down-right section */
 .down-right-section {
   display: grid;
   grid-template-columns: 1fr 2.1228fr;
@@ -230,16 +240,19 @@ body {
   align-items: center;
   column-gap: 16px;
 }
+
 .grow-followers-text {
   color: hsl(0, 0%, 100%);
   font-weight: 500;
   font-size: 32px;
   line-height: 1;
 }
+
 .grow-followers-picture {
   width: 170px;
 }
 
+/* Responsive adjustments */
 @media (max-width: 600px) {
   body {
     display: flex;
@@ -270,7 +283,7 @@ body {
   }
   .left-part {
     position: absolute;
-    top: 1740px;
+    top: 1700px;
     left: 50%;
     transform: translateX(-50%);
     width: 95%;
@@ -283,14 +296,14 @@ body {
   }
   .left-box {
     position: absolute;
-    top: 1510px;
+    top: 1470px;
     left: 50%;
     transform: translateX(-50%);
     width: 95%;
   }
   .right-box {
     position: absolute;
-    top: 1152px;
+    top: 1112px;
     left: 50%;
     transform: translateX(-50%);
   }
