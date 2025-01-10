@@ -15,29 +15,6 @@ A responsive grid layout project designed to showcase a structured and visually 
 - **CSS3**: For advanced styling and layout.
 - **Google Fonts**: Integrated for better typography.
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/bento-grid-layout.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd bento-grid-layout
-   ```
-3. Open the `index.html` file in your browser.
-
-## File Structure
-
-```
-bento-grid-layout/
-├── index.html        # Main HTML file
-├── style.css         # Main CSS file
-├── assets/           # Folder for images and icons
-│   ├── images/       # Image assets
-│   └── favicon/      # Favicon files
-```
-
 ## Usage
 
 - **Customization**: Modify the `style.css` file to change colors, fonts, or layout.
@@ -55,11 +32,3 @@ bento-grid-layout/
    - Multi-column layout with structured sections.
 2. Mobile View:
    - Stacked elements with optimized spacing.
-
-## Contributing
-
-Contributions are welcome! Feel free to fork this repository and submit a pull request for improvements or new features.
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
